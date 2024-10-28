@@ -1,5 +1,9 @@
 # deploy
 run 'make install'
+
+# Видео работы
+https://drive.google.com/file/d/1EWBwkdUQgITrjtxGQ9oU5fnQX-Xr4StO/view
+
 # Задание на разработку веб-приложения  
 
 ## Описание задания  
