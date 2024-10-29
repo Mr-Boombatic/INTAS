@@ -1,7 +1,7 @@
 # deploy
 run 'make install'.
 
-Будьте осторожны! При запуске команды удаляется контейнер с id 'db'.
+Будьте осторожны! При запуске команды выполняется загрузка фейковых данных в базу данных контейнера с id 'db'.
 
 # Видео работы
 https://drive.google.com/file/d/1EWBwkdUQgITrjtxGQ9oU5fnQX-Xr4StO/view
