@@ -16,7 +16,7 @@ services:
     environment:
       <<: *db-env
     volumes:
-      - './PHPApplication:/var/www/html/public'
+      - './app:/var/www/html/public'
 
   nginx:
     image: nginx:latest
