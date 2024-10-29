@@ -1,5 +1,6 @@
 # deploy
 run 'make install'
+Будьте осторожны! при запуске команды удаляется контейнер с id 'db'.
 
 # Видео работы
 https://drive.google.com/file/d/1EWBwkdUQgITrjtxGQ9oU5fnQX-Xr4StO/view
