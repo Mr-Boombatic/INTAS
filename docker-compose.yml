@@ -37,7 +37,7 @@ services:
       <<: *db-env
 
 volumes:
-  test_db: # Определите volume test_db
-    driver: local # Укажите драйвер, если необходимо
+  test_db:
+    driver: local
   esdata1:
     driver: local

@@ -19,7 +19,6 @@ update-schema:
 load-dummy-data:  
 	docker exec -i db mysql intas_company -u root -proot < dummy_data.sql  
 
-# Составная цель для выполнения обеих команд  
 install: up update-schema load-dummy-data
 
 reinstall: uninstall install

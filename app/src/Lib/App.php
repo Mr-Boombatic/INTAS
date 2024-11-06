@@ -64,11 +64,9 @@ class App
             $res->toJSON($response['message']);
         });
 
-        Router::get("/api/route/list/(\d{4}-\d{2}-\d{2})", function (Request $req, Response $res) {
-            $response = (new \App\Controller\RouteController())->listByDepartureDateAction(
-                new RouteService($GLOBALS['entityManager'],
-                    new CourierService($GLOBALS['entityManager']),
-                    new RegionService($GLOBALS['entityManager'])),
+        Router::get("/api/route/list/(\d{4}-\d{2}-\d{2})", function (Request $req, Response $res) use ($dice) {
+            $response = (new RouteController())->listByDepartureDateAction(
+                $dice->create('App\Service\RouteService'),
                 $req->params[0]);
 
             $res->status($response['code']);
