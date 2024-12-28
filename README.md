@@ -33,7 +33,8 @@ https://drive.google.com/file/d/1EWBwkdUQgITrjtxGQ9oU5fnQX-Xr4StO/view
 2. **Язык:** PHP версии 7.0 или выше  
 3. **БД:** MSSQL или MySQL или PostgreSQL  
 4. **Фронт:** Ajax-запросы в форме внесения поездки в регион  
-5. **Docker:** по желанию  
+5. **Docker:** по желанию
+6. Не использовать фрейморк
 
 ## Информация  
 ### Регионы:  
